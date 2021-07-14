@@ -30,6 +30,11 @@ const routes = [
     name: '',
     component: () => import('../views/GroadInformation')
   },
+  {
+    path: '/community',
+    name: '',
+    component: () => import('../views/GroadCommunity')
+  }
 ]
 
 const router = new VueRouter({
